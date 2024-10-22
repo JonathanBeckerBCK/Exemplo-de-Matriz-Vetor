@@ -3,6 +3,7 @@ programa
 	
 	funcao inicio()
 	{
+		inteiro soma = 0 
 		inteiro alunos[3][3] = {
 			{1,3,5},
 			{7,9,11},
@@ -16,15 +17,18 @@ programa
 				{
 
 					escreva(alunos[linh][colu]," ")
+					
+					soma += alunos[linh][colu]
 							
 				}
 				
 		     	escreva("\n")
 						
 			}
-				escreva("==============================\n")
-				escreva("A soma das matrizes é de = ", 1+3+5+7+9+11+13+15+17)
+
 				escreva("\n==============================\n")
-		
-	}
+				escreva("A soma das matrizes é de = ", soma)
+				escreva("\n==============================\n")
+				
+	} 
 }
