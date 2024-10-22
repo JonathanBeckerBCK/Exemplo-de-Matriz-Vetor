@@ -26,7 +26,7 @@ programa
 						
 			}
 
-				escreva("\n==============================\n")
+				escreva("==============================\n")
 				escreva("A soma das matrizes é de = ", soma)
 				escreva("\n==============================\n")
 				
