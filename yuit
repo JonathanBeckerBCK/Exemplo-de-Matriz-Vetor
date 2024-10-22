@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		  cadeia procura[3][3] = {
+		  	{"1-Walso","2-Villa","3-Volley"},
+		  	{"4-Wilson","5-Valdo","6-Wally"},
+		  	{"7-Wallace","8-Willy","9-Vasco"}
+		   }
+
+	  	se(procura[0][0] == )
+	  	{
+	  		
+	  	}
+	  }  
+    } 
+}
